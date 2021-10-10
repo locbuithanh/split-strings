@@ -19,16 +19,12 @@ func main() {
 	s := split(replace(str))
 	var res string
 	count := 0
-	d := 0
 	for _, i := range s {
 		i = strings.Trim(i, `-,;: `) + "."
 		len := utf8.RuneCountInString(i)
 		if filter(res, i, len) {
 			count++
 			res += fmt.Sprintf("%d|%d|%s\n", count, len, i)
-			if len > 90 {
-				d++
-			}
 		}
 	}
 	f, err := os.Create("output.txt")
@@ -38,7 +34,7 @@ func main() {
 	}
 	defer f.Close()
 	f.WriteString(res)
-	fmt.Println(strings.Count(res, "\n"), d)
+	fmt.Println(strings.Count(res, "\n"))
 }
 
 func split(s string) []string {
@@ -61,6 +57,7 @@ func replace(s string) string {
 		" 7 ", " bảy ",
 		" 8 ", " tám ",
 		" 9 ", " chín ",
+		" 10 ", " mười ",
 		" 16 ", " mười sáu ",
 		"kg", "cân",
 		"vaccine", "vắc xin",
