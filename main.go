@@ -16,26 +16,29 @@ func main() {
 	}
 
 	str := strings.ToLower(string((buf)))
-
 	s := split(replace(str))
+	var res string
+	count := 0
+	d := 0
+	for _, i := range s {
+		i = strings.Trim(i, `-,;: `) + "."
+		len := utf8.RuneCountInString(i)
+		if filter(res, i, len) {
+			count++
+			res += fmt.Sprintf("%d|%d|%s\n", count, len, i)
+			if len > 90 {
+				d++
+			}
+		}
+	}
+	f, err := os.Create("output.txt")
 	if err != nil {
 		log.Println(err)
 		return
 	}
-	var res string
-	count := 0
-	for _, i := range s {
-		i = strings.TrimSpace(i) + "."
-		len := utf8.RuneCountInString(i)
-		if len > 20 && len < 100 && !strings.Contains(res, i) {
-			count++
-			res += fmt.Sprintf("%d|%d|%s\n", count, len, i)
-		}
-	}
-	f, err := os.Create("output.txt")
 	defer f.Close()
 	f.WriteString(res)
-	fmt.Println(strings.Count(res, "\n"))
+	fmt.Println(strings.Count(res, "\n"), d)
 }
 
 func split(s string) []string {
@@ -45,7 +48,8 @@ func split(s string) []string {
 }
 
 func replace(s string) string {
-	r := strings.NewReplacer("tp hcm", "thành phố hồ chí minh",
+	r := strings.NewReplacer(
+		"tp hcm", "thành phố hồ chí minh",
 		"covid-19", "cô vít",
 		"covid", "cô vít",
 		" 1 ", " một ",
@@ -62,6 +66,11 @@ func replace(s string) string {
 		"vaccine", "vắc xin",
 		"online", "trực tuyến",
 		"australia", "úc",
+		"click", "kích",
 	)
 	return r.Replace(s)
+}
+
+func filter(res, s string, len int) bool {
+	return len > 20 && len < 95 && !strings.Contains(res, s) && string(rune(s[0])) != "0"
 }
