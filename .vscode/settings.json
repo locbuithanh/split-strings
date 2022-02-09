@@ -1,4 +1,7 @@
 {
+    "files.exclude": {
+        "*.log": true,
+    },
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true
 }

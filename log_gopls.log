@@ -1,0 +1,212 @@
+[Trace - 17:37:53.257 PM] Sending request 'initialize - (0)'.
+Params: {"processId":17864,"clientInfo":{"name":"Visual Studio Code","version":"1.61.2"},"locale":"ja","rootPath":"c:\\Users\\Loc Bui\\workspace\\split-strings","rootUri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true,"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":false},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false},"linkedEditingRange":{"dynamicRegistration":true}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"}}},"initializationOptions":{"verboseOutput":true},"trace":"off","workspaceFolders":[{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings","name":"split-strings"}]}
+
+
+[Trace - 17:37:53.320 PM] Received response 'initialize - (0)' in 63ms.
+Result: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":["."],"completionItem":{}},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":true,"typeDefinitionProvider":true,"implementationProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["quickfix","refactor.extract","refactor.rewrite","source.fixAll","source.organizeImports"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":""},"renameProvider":{"prepareProvider":true},"foldingRangeProvider":true,"executeCommandProvider":{"commands":["gopls.add_dependency","gopls.add_import","gopls.apply_fix","gopls.check_upgrades","gopls.gc_details","gopls.generate","gopls.generate_gopls_mod","gopls.go_get_package","gopls.list_known_packages","gopls.regenerate_cgo","gopls.remove_dependency","gopls.run_tests","gopls.start_debugging","gopls.test","gopls.tidy","gopls.toggle_gc_details","gopls.update_go_sum","gopls.upgrade_dependency","gopls.vendor","gopls.workspace_metadata"]},"callHierarchyProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"}}},"serverInfo":{"name":"gopls","version":"{\"path\":\"golang.org/x/tools/gopls\",\"version\":\"v0.7.3\",\"sum\":\"h1:Lru57ht8vtDMouRskFC085VAjBAZRAISd/lwvwOOV0Q=\",\"deps\":[{\"path\":\"github.com/BurntSushi/toml\",\"version\":\"v0.3.1\",\"sum\":\"h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=\"},{\"path\":\"github.com/google/go-cmp\",\"version\":\"v0.5.6\",\"sum\":\"h1:BKbKCqvP6I+rmFHt06ZmyQtvB8xAkWdhFyr0ZUNZcxQ=\"},{\"path\":\"github.com/sergi/go-diff\",\"version\":\"v1.1.0\",\"sum\":\"h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=\"},{\"path\":\"golang.org/x/mod\",\"version\":\"v0.4.2\",\"sum\":\"h1:Gz96sIWK3OalVv/I/qNygP42zyoKp3xptRVCWRFEBvo=\"},{\"path\":\"golang.org/x/sync\",\"version\":\"v0.0.0-20210220032951-036812b2e83c\",\"sum\":\"h1:5KslGYwFpkhGh+Q16bwMP3cOontH8FOep7tGV86Y7SQ=\"},{\"path\":\"golang.org/x/sys\",\"version\":\"v0.0.0-20210809222454-d867a43fc93e\",\"sum\":\"h1:WUoyKPm6nCo1BnNUvPGnFG3T5DUVem42yDJZZ4CNxMA=\"},{\"path\":\"golang.org/x/text\",\"version\":\"v0.3.6\",\"sum\":\"h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=\"},{\"path\":\"golang.org/x/tools\",\"version\":\"v0.1.8-0.20211014194737-fc98fb2abd48\",\"sum\":\"h1:hk7xRoeg0CG1nRLsd5BZLDUgVpA9bnKylGk1p2/BPH0=\"},{\"path\":\"golang.org/x/xerrors\",\"version\":\"v0.0.0-20200804184101-5ec99f83aff1\",\"sum\":\"h1:go1bK/D/BFZV2I8cIQd1NKEZ+0owSTG1fDTci4IqFcE=\"},{\"path\":\"honnef.co/go/tools\",\"version\":\"v0.2.0\",\"sum\":\"h1:ws8AfbgTX3oIczLPNPCu5166oBg9ST2vNs0rcht+mDE=\"},{\"path\":\"mvdan.cc/gofumpt\",\"version\":\"v0.1.1\",\"sum\":\"h1:bi/1aS/5W00E2ny5q65w9SnKpWEF/UIOqDYBILpo9rA=\"},{\"path\":\"mvdan.cc/xurls/v2\",\"version\":\"v2.3.0\",\"sum\":\"h1:59Olnbt67UKpxF1EwVBopJvkSUBmgtb468E4GVWIZ1I=\"}]}"}}
+
+
+[Trace - 17:37:53.328 PM] Sending notification 'initialized'.
+Params: {}
+
+
+[Trace - 17:37:53.328 PM] Sending notification 'textDocument/didOpen'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go","languageId":"go","version":1,"text":"package main\n\nimport (\n\t\"fmt\"\n\t\"log\"\n\t\"os\"\n\t\"regexp\"\n\t\"strings\"\n\t\"unicode\"\n)\n\nfunc main() {\n\tbuf, err := os.ReadFile(\"sentences_lower.txt\")\n\tif err != nil {\n\t\tlog.Println(err)\n\t\treturn\n\t}\n\tstr := strings.ReplaceAll(string(buf), \"\\r\\n\", \"\\n\")\n\ts := strings.SplitN(str, \"\\n\", -1)\n\tres := \"\"\n\tre := regexp.MustCompile(`iễu|ưỡi|uỗi|uấy|oáy|ươu|oẹo|yểu|oèo|iây|uẫy|uéo` +\n\t\t`|uai|iời|iấu|oai|ưởi|oải|uya|uỷu|oéo|iai|iũa|iườ|uái|uyễ` +\n\t\t`|uội|iàu|oái|uầy|yếu|uôi|uay|iày|iải|iấy|ượu|iỏi|oay` +\n\t\t`|iểu|ểu|iệu|ệu|iêu|yêu|êu|uyể|yể|uyế|yế` +\n\t\t`|iã|ỉu|ẫy|uỵ|ìu|ửu|ừu|ĩu|uề|oó|ỡi|ọe|ũy|ué|oẵ|iâ|uẫ|uắ|uã|iở|iỗ|iơ|iă|iô|iu` +\n\t\t`|uỗ|ụa|ũa|oo|uỹ|ảu|uể|oè|iặ|iũ|iò|oắ|oằ|ẽo|ựu|ọa|õi|òe|óe|ụy` +\n\t\t`|iậ|uở|uơ|oé|uỷ|oẻ|iư|uạ|ũi|íu|oã|ỉa|ẻo|ìa|oẹ|uỳ|uà|ùy|iọ|ủi` +\n\t\t`|uệ|ỏa|oe|ãi|ụi|oă|ẹo|ùi|òi|ue|ía|iỏ|èo|ưỡ|ữu|úy|ỵ`)\n\tfor _, i := range s {\n\t\tres += fmt.Sprintf(\"%s|%s\\n\", i, strings.Join((re.FindAllString(i, -1)), \", \"))\n\t}\n\tf, err := os.Create(\"test.txt\")\n\tif err != nil {\n\t\tlog.Println(err)\n\t\treturn\n\t}\n\tdefer f.Close()\n\tf.WriteString(res)\n}\n\n// func main() {\n// \tbuf, err := os.ReadFile(\"input.txt\")\n// \t// buf, err := os.ReadFile(\"select.txt\")\n// \tif err != nil {\n// \t\tlog.Println(err)\n// \t\treturn\n// \t}\n\n// \tstr := strings.ToLower(string((buf)))\n// \t// str := string((buf))\n// \ts := split(replace(replaceMarks(str)))\n// \tvar res string\n// \tcount := 1287\n// \t// count := 0\n// \tfor _, i := range s {\n// \t\tif regexp.MustCompile(\"[0-9]+\").MatchString(i) {\n// \t\t\tcontinue\n// \t\t}\n// \t\ti = strings.TrimSpace(strings.Trim(i, `-,;: `)) + \".\"\n// \t\t// i = firstUpper(i)\n// \t\tlen := utf8.RuneCountInString(i)\n// \t\tif filter(res, i, len) {\n// \t\t\tcount++\n// \t\t\tres += fmt.Sprintf(\"%d|%d|%s\\n\", count, len, i)\n// \t\t}\n// \t\tif count == 2800 {\n// \t\t\tbreak\n// \t\t}\n// \t}\n// \tf, err := os.Create(\"output.txt\")\n// \t// f, err := os.Create(\"output3_lower.txt\")\n// \tif err != nil {\n// \t\tlog.Println(err)\n// \t\treturn\n// \t}\n// \tdefer f.Close()\n// \tf.WriteString(returnMarks(res))\n// \tfmt.Println(strings.Count(res, \"\\n\"))\n// }\n\nfunc firstUpper(str string) string {\n\tif len(str) == 0 {\n\t\treturn \"\"\n\t}\n\ttmp := []rune(str)\n\ttmp[0] = unicode.ToUpper(tmp[0])\n\treturn string(tmp)\n}\n\nfunc split(s string) []string {\n\treturn strings.FieldsFunc(s, func(r rune) bool {\n\t\treturn r == '.' || r == '\\n'\n\t})\n}\n\nfunc replaceMarks(s string) string {\n\tr := strings.NewReplacer(\"?\", \"?.\", \"!\", \"!.\")\n\treturn r.Replace(s)\n}\n\nfunc returnMarks(s string) string {\n\tr := strings.NewReplacer(\"?.\", \"?\", \"!.\", \"!\")\n\treturn r.Replace(s)\n}\n\nfunc replace(s string) string {\n\tr := strings.NewReplacer(\n\t\t\"tp hcm\", \"thành phố hồ chí minh\",\n\t\t\"TP HCM\", \"thành phố Hồ Chí Minh\",\n\t\t\"covid-19\", \"cô vít\",\n\t\t\"Covid-19\", \"Cô vít\",\n\t\t\"covid\", \"cô vít\",\n\t\t\"Covid\", \"Cô vít\",\n\t\t\" 1 \", \" một \",\n\t\t\" 2 \", \" hai \",\n\t\t\" 3 \", \" ba \",\n\t\t\" 4 \", \" bốn \",\n\t\t\" 5 \", \" năm \",\n\t\t\" 6 \", \" sáu \",\n\t\t\" 7 \", \" bảy \",\n\t\t\" 8 \", \" tám \",\n\t\t\" 9 \", \" chín \",\n\t\t\" 10 \", \" mười \",\n\t\t\" 16 \", \" mười sáu \",\n\t\t\"kg\", \"cân\",\n\t\t\"ôtô\", \"ô tô\",\n\t\t\"noel\", \"giáng sinh\",\n\t\t\"Noel\", \"Giáng sinh\",\n\t\t\"vaccine\", \"vắc xin\",\n\t\t\"Vaccine\", \"Vắc xin\",\n\t\t\"online\", \"trực tuyến\",\n\t\t\"Online\", \"Trực tuyến\",\n\t\t\"australia\", \"úc\",\n\t\t\"Australia\", \"Úc\",\n\t\t\"click\", \"kích\",\n\t\t\"internet\", \"in tơ nét\",\n\t\t\"Internet\", \"In tơ nét\",\n\t\t\"bus\", \"buýt\",\n\t\t\"taxi\", \"tắc xi\",\n\t\t\"jesse\", \"lâm\",\n\t\t\"Jesse\", \"Lâm\",\n\t\t\"jess\", \"lâm\",\n\t\t\"Jess\", \"Lâm\",\n\t\t\"nylon\", \"ni lông\",\n\t\t\"virus\", \"vi rút\",\n\t\t\"Virus\", \"Vi rút\",\n\t\t\"singapore\", \"xinh-ga-po\",\n\t\t\"Singapore\", \"Xinh-ga-po\",\n\t\t\"thcs\", \"trung học cơ sở\",\n\t\t\"THCS\", \"trung học cơ sở\",\n\t\t\"thpt\", \"trung học phổ thông\",\n\t\t\"THPT\", \"trung học phổ thông\",\n\t\t\"facebook\", \"phây búc\",\n\t\t\"Facebook\", \"Phây búc\",\n\t\t\"visa\", \"thị thực\",\n\t\t\"Visa\", \"Thị thực\",\n\t\t\"canada\", \"ca-na-đa\",\n\t\t\"Canada\", \"Ca-na-đa\",\n\t\t\"wikipedia\", \"bách khoa toàn thư mở\",\n\t\t\"Wikipedia\", \"Bách khoa toàn thư mở\",\n\t\t\"start-up\", \"công ty khởi nghiệp\",\n\t\t\"Start-up\", \"Công ty khởi nghiệp\",\n\t\t\"gs\", \"giáo sư\",\n\t\t\"GS\", \"Giáo sư\",\n\t\t\"delta\", \"mới\",\n\t\t\"Delta\", \"mới\",\n\t\t\"app\", \"ứng dụng\",\n\t)\n\treturn r.Replace(s)\n}\n\nfunc filter(res, s string, len int) bool {\n\treturn len > 30 && len < 95 && !strings.Contains(res, s) && string(rune(s[0])) != \"0\"\n\t// return len < 95 && !strings.Contains(res, s) && string(rune(s[0])) != \"0\"\n}\n"}}
+
+
+[Trace - 17:37:53.329 PM] Received request 'window/workDoneProgress/create - (1)'.
+Params: {"token":"5577006791947779410"}
+
+
+[Trace - 17:37:53.346 PM] Sending response 'window/workDoneProgress/create - (1)' in 16ms.
+Result: 
+
+
+[Trace - 17:37:53.346 PM] Sending request 'textDocument/documentSymbol - (1)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"}}
+
+
+[Trace - 17:37:53.346 PM] Sending request 'textDocument/codeAction - (2)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"},"range":{"start":{"line":21,"character":34},"end":{"line":21,"character":34}},"context":{"diagnostics":[]}}
+
+
+[Trace - 17:37:53.346 PM] Sending request 'textDocument/documentLink - (3)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"}}
+
+
+[Trace - 17:37:53.373 PM] Received notification '$/progress'.
+Params: {"token":"5577006791947779410","value":{"kind":"begin","title":"Setting up workspace","message":"Loading packages..."}}
+
+
+[Trace - 17:37:53.373 PM] Received request 'workspace/configuration - (2)'.
+Params: {"items":[{"scopeUri":"file:///C:/Users/Loc%20Bui/workspace/split-strings","section":"gopls"}]}
+
+
+[Trace - 17:37:53.391 PM] Sending response 'workspace/configuration - (2)' in 17ms.
+Result: [{"verboseOutput":true}]
+
+
+[Trace - 17:37:53.750 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:53 go env for C:\\Users\\Loc Bui\\workspace\\split-strings\n(root C:\\Users\\Loc Bui\\workspace\\split-strings)\n(go version go version go1.17.2 windows/amd64)\n(valid build configuration = false)\n(build flags: [])\nGOCACHE=C:\\Users\\Loc Bui\\AppData\\Local\\go-build\nGOMOD=NUL\nGO111MODULE=\nGOFLAGS=\nGONOPROXY=\nGOPROXY=https://proxy.golang.org,direct\nGOMODCACHE=C:\\Users\\Loc Bui\\go\\pkg\\mod\nGONOSUMDB=\nGOPATH=C:\\Users\\Loc Bui\\go\nGOPRIVATE=\nGOINSECURE=\nGOROOT=C:\\Program Files\\Go\nGOSUMDB=sum.golang.org\n\n"}
+
+
+[Trace - 17:37:54.028 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 388.6891ms for GOROOT= GOPATH=C:\\Users\\Loc Bui\\go GO111MODULE=auto GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\Loc Bui\\workspace\\split-strings go list -f \"{{context.GOARCH}} {{context.Compiler}}\" -- unsafe\n"}
+
+
+[Trace - 17:37:54.068 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 462.0019ms for GOROOT= GOPATH=C:\\Users\\Loc Bui\\go GO111MODULE=off GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\Loc Bui\\workspace\\split-strings go list -e -f {{context.ReleaseTags}} -- unsafe\n"}
+
+
+[Trace - 17:37:54.319 PM] Sending request 'textDocument/foldingRange - (4)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"}}
+
+
+[Trace - 17:37:54.320 PM] Sending request 'textDocument/codeLens - (5)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"}}
+
+
+[Trace - 17:37:54.596 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 521.4984ms for GOROOT= GOPATH=C:\\Users\\Loc Bui\\go GO111MODULE=auto GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\Loc Bui\\workspace\\split-strings go list -e -json -compiled=true -test=true -export=false -deps=true -find=false -- ./ builtin\n"}
+
+
+[Trace - 17:37:54.598 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 go/packages.Load\n\tsnapshot=0\n\tpackage=\"_/C_/Users/Loc_Bui/workspace/split-strings\"\n\tfiles=[C:\\Users\\Loc Bui\\workspace\\split-strings\\main.go]\n"}
+
+
+[Trace - 17:37:54.598 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 go/packages.Load\n\tsnapshot=0\n\tdirectory=C:\\Users\\Loc Bui\\workspace\\split-strings\n\tquery=[./ builtin]\n\tpackages=2\n"}
+
+
+[Trace - 17:37:54.722 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 go/packages.Load\n\tsnapshot=0\n\tpackage=\"builtin\"\n\tfiles=[C:\\Program Files\\Go\\src\\builtin\\builtin.go]\n"}
+
+
+[Trace - 17:37:54.722 PM] Received notification '$/progress'.
+Params: {"token":"5577006791947779410","value":{"kind":"end","message":"Finished loading packages."}}
+
+
+[Trace - 17:37:54.742 PM] Received request 'client/registerCapability - (3)'.
+Params: {"registrations":[{"id":"workspace/didChangeWatchedFiles-0","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/*.*tmpl","kind":7},{"globPattern":"**/*.{go,mod,sum,work,tmpl}","kind":7}]}}]}
+
+
+[Trace - 17:37:54.745 PM] Sending response 'client/registerCapability - (3)' in 2ms.
+Result: 
+
+
+[Trace - 17:37:54.752 PM] Received request 'client/registerCapability - (4)'.
+Params: {"registrations":[{"id":"workspace/didChangeConfiguration","method":"workspace/didChangeConfiguration"}]}
+
+
+[Trace - 17:37:54.756 PM] Sending response 'client/registerCapability - (4)' in 3ms.
+Result: 
+
+
+[Trace - 17:37:54.855 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 discovered missing identifiers: map[memRecordCycle:true pageBits:true]\n\tpackage=\"runtime\"\n"}
+
+
+[Trace - 17:37:54.926 PM] Received response 'textDocument/documentSymbol - (1)' in 1579ms.
+Result: [{"name":"main","detail":"()","kind":12,"range":{"start":{"line":11,"character":0},"end":{"line":38,"character":1}},"selectionRange":{"start":{"line":11,"character":5},"end":{"line":11,"character":9}}},{"name":"firstUpper","detail":"(str string)","kind":12,"range":{"start":{"line":80,"character":0},"end":{"line":87,"character":1}},"selectionRange":{"start":{"line":80,"character":5},"end":{"line":80,"character":15}}},{"name":"split","detail":"(s string)","kind":12,"range":{"start":{"line":89,"character":0},"end":{"line":93,"character":1}},"selectionRange":{"start":{"line":89,"character":5},"end":{"line":89,"character":10}}},{"name":"replaceMarks","detail":"(s string)","kind":12,"range":{"start":{"line":95,"character":0},"end":{"line":98,"character":1}},"selectionRange":{"start":{"line":95,"character":5},"end":{"line":95,"character":17}}},{"name":"returnMarks","detail":"(s string)","kind":12,"range":{"start":{"line":100,"character":0},"end":{"line":103,"character":1}},"selectionRange":{"start":{"line":100,"character":5},"end":{"line":100,"character":16}}},{"name":"replace","detail":"(s string)","kind":12,"range":{"start":{"line":105,"character":0},"end":{"line":169,"character":1}},"selectionRange":{"start":{"line":105,"character":5},"end":{"line":105,"character":12}}},{"name":"filter","detail":"(res string, s string, len int)","kind":12,"range":{"start":{"line":171,"character":0},"end":{"line":174,"character":1}},"selectionRange":{"start":{"line":171,"character":5},"end":{"line":171,"character":11}}}]
+
+
+[Trace - 17:37:54.926 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:37:54 fixImports(filename=\"C:\\\\Users\\\\Loc Bui\\\\workspace\\\\split-strings\\\\main.go\"), abs=\"C:\\\\Users\\\\Loc Bui\\\\workspace\\\\split-strings\\\\main.go\", srcDir=\"C:\\\\Users\\\\Loc Bui\\\\workspace\\\\split-strings\" ...\n"}
+
+
+[Trace - 17:37:54.927 PM] Received response 'textDocument/codeAction - (2)' in 1580ms.
+Result: null
+
+
+[Trace - 17:37:54.930 PM] Received response 'textDocument/documentLink - (3)' in 1584ms.
+Result: [{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":5}},"target":"https://pkg.go.dev/fmt?utm_source=gopls"},{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":5}},"target":"https://pkg.go.dev/log?utm_source=gopls"},{"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":4}},"target":"https://pkg.go.dev/os?utm_source=gopls"},{"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":8}},"target":"https://pkg.go.dev/regexp?utm_source=gopls"},{"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":9}},"target":"https://pkg.go.dev/strings?utm_source=gopls"},{"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":9}},"target":"https://pkg.go.dev/unicode?utm_source=gopls"}]
+
+
+[Trace - 17:37:54.931 PM] Received response 'textDocument/foldingRange - (4)' in 611ms.
+Result: [{"startLine":2,"startCharacter":8,"endLine":8,"endCharacter":10,"kind":"imports"},{"startLine":11,"startCharacter":13,"endLine":37,"endCharacter":19},{"startLine":13,"startCharacter":16,"endLine":15,"endCharacter":8},{"startLine":20,"startCharacter":26,"endLine":27,"endCharacter":54},{"startLine":28,"startCharacter":22,"endLine":29,"endCharacter":81},{"startLine":32,"startCharacter":16,"endLine":34,"endCharacter":8},{"startLine":40,"startCharacter":16,"endLine":46,"endCharacter":5,"kind":"comment"},{"startLine":48,"startCharacter":41,"endLine":78,"endCharacter":4,"kind":"comment"},{"startLine":80,"startCharacter":36,"endLine":86,"endCharacter":19},{"startLine":81,"startCharacter":19,"endLine":82,"endCharacter":11},{"startLine":89,"startCharacter":31,"endLine":92,"endCharacter":3},{"startLine":90,"startCharacter":27,"endLine":92,"endCharacter":2},{"startLine":90,"startCharacter":49,"endLine":91,"endCharacter":30},{"startLine":95,"startCharacter":36,"endLine":97,"endCharacter":20},{"startLine":100,"startCharacter":35,"endLine":102,"endCharacter":20},{"startLine":105,"startCharacter":31,"endLine":168,"endCharacter":20},{"startLine":106,"startCharacter":26,"endLine":167,"endCharacter":1},{"startLine":171,"startCharacter":42,"endLine":172,"endCharacter":86}]
+
+
+[Trace - 17:37:54.931 PM] Received response 'textDocument/codeLens - (5)' in 610ms.
+Result: null
+
+
+[Trace - 17:38:24.982 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:24 40.344ms for GOROOT= GOPATH=C:\\Users\\Loc Bui\\go GO111MODULE=auto GOPROXY=https://proxy.golang.org,direct PWD=C:\\Users\\Loc Bui\\workspace\\split-strings go env -json GO111MODULE GOFLAGS GOINSECURE GOMOD GOMODCACHE GONOPROXY GONOSUMDB GOPATH GOPROXY GOROOT GOSUMDB\n"}
+
+
+[Trace - 17:38:24.982 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:24 background imports cache refresh starting\n"}
+
+
+[Trace - 17:38:24.982 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:24 gopathwalk: scanning C:\\Users\\Loc Bui\\go\\src\n"}
+
+
+[Trace - 17:38:24.983 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:24 open C:\\Users\\Loc Bui\\go\\src\\.goimportsignore: The system cannot find the file specified.\n"}
+
+
+[Trace - 17:38:24.983 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:24 Error statting ignored directory: CreateFile C:\\Users\\Loc Bui\\go\\src\\v: The system cannot find the file specified.\n"}
+
+
+[Trace - 17:38:24.983 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:24 Error statting ignored directory: CreateFile C:\\Users\\Loc Bui\\go\\src\\mod: The system cannot find the file specified.\n"}
+
+
+[Trace - 17:38:25.046 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:25 background refresh finished after 110.7756ms\n"}
+
+
+[Trace - 17:38:25.046 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:38:25 gopathwalk: scanned C:\\Users\\Loc Bui\\go\\src in 64.6153ms\n"}
+
+
+[Trace - 17:48:34.839 PM] Sending request 'textDocument/hover - (6)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"},"position":{"line":32,"character":1}}
+
+
+[Trace - 17:48:34.839 PM] Received response 'textDocument/hover - (6)' in 0ms.
+Result: null
+
+
+[Trace - 17:48:34.898 PM] Sending request 'textDocument/documentHighlight - (7)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"},"position":{"line":32,"character":1}}
+
+
+[Trace - 17:48:34.898 PM] Received response 'textDocument/documentHighlight - (7)' in 0ms.
+Result: []
+
+
+[Trace - 17:48:35.136 PM] Sending request 'textDocument/codeAction - (8)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"},"range":{"start":{"line":32,"character":1},"end":{"line":32,"character":1}},"context":{"diagnostics":[]}}
+
+
+[Trace - 17:48:35.137 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:48:35 fixImports(filename=\"C:\\\\Users\\\\Loc Bui\\\\workspace\\\\split-strings\\\\main.go\"), abs=\"C:\\\\Users\\\\Loc Bui\\\\workspace\\\\split-strings\\\\main.go\", srcDir=\"C:\\\\Users\\\\Loc Bui\\\\workspace\\\\split-strings\" ...\n"}
+
+
+[Trace - 17:48:35.137 PM] Received response 'textDocument/codeAction - (8)' in 1ms.
+Result: null
+
+
+[Trace - 17:48:35.754 PM] Sending request 'textDocument/codeLens - (9)'.
+Params: {"textDocument":{"uri":"file:///c%3A/Users/Loc%20Bui/workspace/split-strings/main.go"}}
+
+
+[Trace - 17:48:35.755 PM] Received response 'textDocument/codeLens - (9)' in 0ms.
+Result: null
+
+
+[Trace - 17:48:36.648 PM] Sending request 'shutdown - (10)'.
+Params: 
+
+
+[Trace - 17:48:36.648 PM] Received notification 'window/logMessage'.
+Params: {"type":3,"message":"2021/10/26 17:48:36 Shutdown session\n\tshutdown_session=1\n"}
+
+
+[Trace - 17:48:36.649 PM] Received response 'shutdown - (10)' in 1ms.
+Result: null
+
+
